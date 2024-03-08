@@ -15,7 +15,10 @@ public class Main {
         frame.setSize(400, 300);
 
         KurdistanFlag KurdistanFlag = new KurdistanFlag();
-        frame.add(KurdistanFlag);
+        frame.add(KurdistanFlag); //comment this line if you want to show the Buttons to chnage background
+
+        TheButtons theButtons = new TheButtons();
+//        frame.add(theButtons); // comment this line if you want to Kurdistan Flag
 
         frame.setVisible(true);
     }
